@@ -1,0 +1,23 @@
+🧩 Constructors in Java – Concepts & Examples
+
+This folder contains a collection of Java programs that demonstrate the concept of constructors, one of the most fundamental topics in Object-Oriented Programming (OOP).
+
+📘 What’s Inside
+
+Concept Notes:
+Short and clear explanations about what constructors are, their types, and how they work in Java.
+
+Example Codes:
+A variety of Java programs showing:
+
+Default Constructor
+
+Parameterized Constructor
+
+Copy Constructor (user-defined)
+
+Constructor Overloading
+
+Constructor Chaining using this() and super()
+
+Difference between Constructor and Method
