@@ -1,0 +1,48 @@
+🧩 1. Default Constructor
+📘 What It Is:
+A default constructor is a constructor with no parameters.
+If you don’t define any constructor, Java automatically creates one for you.
+
+💡 Purpose:
+It gives default values to the object.
+Note: Even if you don’t write a constructor, Java provides one automatically.
+//
+🧩 2. Parameterized Constructor
+📘 What It Is:
+A parameterized constructor takes arguments (parameters) to initialize object values.
+
+💡 Purpose:
+It helps assign different values to each object when they are created.
+//
+🧩 3. Copy Constructor
+📘 What It Is:
+Java doesn’t have a built-in copy constructor like C++,
+but we can create one manually to copy data from another object.
+
+💡 Purpose:
+To clone or copy values from one object to another.
+//
+🧩 4. Constructor Overloading
+📘 What It Is:
+Constructor Overloading means having multiple constructors in a class
+with different numbers or types of parameters.
+
+💡 Purpose:
+It allows different ways to initialize objects.
+//
+🧩 5. Constructor Chaining
+📘 What It Is:
+Constructor Chaining means one constructor calling another constructor
+inside the same class using this(), or from parent class using super().
+
+💡 Purpose:
+To avoid code duplication and reuse constructor logic.
+//
+🧩 6. Constructor vs Method
+| Feature         | Constructor                                 | Method                       |
+| --------------- | ------------------------------------------- | ---------------------------- |
+| **Purpose**     | Initializes an object                       | Performs a task or operation |
+| **Name**        | Same as class name                          | Can be any name              |
+| **Return Type** | No return type (not even void)              | Must have a return type      |
+| **Call**        | Called automatically when object is created | Called manually using object |
+| **Inheritance** | Not inherited                               | Can be inherited             |
